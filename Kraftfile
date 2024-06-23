@@ -1,0 +1,6 @@
+spec: v0.6
+rootfs: ./Dockerfile
+cmd: ["/rand"]
+unikraft: stable
+targets:
+  - qemu/arm64
