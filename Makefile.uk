@@ -1,0 +1,4 @@
+$(eval $(call addlib,apprand))
+
+APPRAND_SRCS-y   += $(APPRAND_BASE)/rand.c
+APPRAND_CFLAGS-y += -Wall -Werror -Wextra -fPIC -static-pie -O3

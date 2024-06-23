@@ -1,6 +1,14 @@
 spec: v0.6
-rootfs: ./Dockerfile
-cmd: ["/rand"]
-unikraft: stable
+
+name: rand
+
+# cmd: ["/rand"]
+
+unikraft:
+  version: stable
+  kconfig:
+    CONFIG_LIBPOSIX_TIME: 'y'
+
 targets:
   - qemu/arm64
+  - qemu/x86_64

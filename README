@@ -1,0 +1,9 @@
+rand-unikernel
+--------------
+
+A tiny unikernel (built with "Unikraft" [1]) to display a random number.
+The kernel image is published as an OCI image and can be deployed as a
+container on a Kubnernetes cluster with the "runu" [2] runtime enabled.
+
+[1]: https://unikraft.org/
+[2]: https://unikraft.org/docs/getting-started/integrations/container-runtimes
