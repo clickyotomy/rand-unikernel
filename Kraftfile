@@ -2,7 +2,7 @@ spec: v0.6
 
 name: rand
 
-# cmd: ["/rand"]
+cmd: ["/rand"]
 
 unikraft:
   version: stable
